@@ -1,10 +1,11 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <PageHome />
+  <RouterView />
 </template>
 
 <script setup>
   import PageHome from '@/components/PageHome.vue'
+  import { RouterView } from 'vue-router'
 
   // This starter template is using Vue 3 experimental <script setup> SFCs
   // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
