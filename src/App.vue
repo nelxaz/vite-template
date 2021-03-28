@@ -4,7 +4,6 @@
 </template>
 
 <script setup>
-  import PageHome from '@/components/PageHome.vue'
   import { RouterView } from 'vue-router'
 
   // This starter template is using Vue 3 experimental <script setup> SFCs
